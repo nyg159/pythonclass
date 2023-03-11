@@ -1,5 +1,0 @@
-print("It's really hot!")
-print('I said "Hello!" to him.')
-print("He said \"What\'s there?\"")
-print("Newline character is \\n, Tab chatacter is \\t.")
-print("Working directory is C:\\workspace\\mywork.")
