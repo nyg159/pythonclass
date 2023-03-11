@@ -1,0 +1,16 @@
+date1 = input("경기 날짜는 언제입니까? ")
+stadium = input("경기장은 어디입니까? ")
+sports = input("스포츠 종목은 무엇입니까?")
+winner = input("이긴 팀은 어디입니까? ")
+loser = input("진 팀은 어디입니까? ")
+vip = input("우수선수는 누구입니까? ")
+score = input("스코어는 몇대몇입니까? ")
+
+print("\n")
+print("===========================================")
+print(f"{date1} {stadium} 에서 {sports} 경기가 열였습니다.")
+print(f"{winner} 과 {loser} 은 치열한 공방전을 펼쳤습니다.")
+print(f"오늘의 우수 선수는 {vip}입니다.")
+print(f"{vip} 선수의 맹활약으로 {winner} 가 {loser} 를 {score} 로 이겼습니다.")
+print("===========================================")
+
