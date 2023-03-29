@@ -1,6 +1,5 @@
 import turtle
 
-
 t = turtle.Turtle()
 t.speed(0)
 t.width(2)

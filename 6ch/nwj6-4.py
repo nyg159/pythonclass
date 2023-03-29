@@ -1,0 +1,26 @@
+import turtle
+
+
+t = turtle.Turtle()
+t.shape("turtle")
+t.speed(0)
+
+def f(x):
+    return x**2 + 1
+
+t.goto(200, 0)
+t.goto(0, 0)
+t.goto(-200, 0)
+t.goto(0, 0)
+t.goto(0, 200)
+t.goto(0, 0)
+
+for x in range(150):
+    t.goto(x, int(0.01*f(x)))
+
+t.penup()
+t.goto(0,0)
+t.pendown()
+
+for x in range(150):
+    t.goto(-x, int(0.01*f(x)))
