@@ -1,12 +1,9 @@
 print("7-6.  20173087 노원진\n")
 
-fruit_list=['banana', 'orange', 'kiwi', 'apple', 'melon']
+list1=['I like', 'I love']
+list2=['pancakes.', 'kiwi juice.', 'espresso.'] 
 
-max_length = max(len(fruit) for fruit in fruit_list) 
-max_fruits = [fruit for fruit in fruit_list if len(fruit) == max_length] 
-fruit_list = [fruit for fruit in fruit_list if len(fruit) != max_length] 
-print("가장 긴 문자열 출력")
-print(max_fruits)
-print("리스트 출력")
-print(fruit_list)
+for i in range(len(list1)):
+    for j in range(len(list2)):
+        print(f"{list1[i] + list2[j]}")
 

@@ -1,14 +1,9 @@
 print("7-5.  20173087 노원진\n")
 
-x = ('A','B','C')
-y = (1,2)
-z =[]
+list1=[3, 5, 7]
+list2=[2, 3, 4, 5, 6]
 
-x1 = list(x)
-y1 = list(map(str, y))
+for i in range(len(list1)):
+    for j in range(len(list2)):
+        print(f"{list1[i]} * {list2[j]} = {list1[i] * list2[j]}")
 
-for i in x1:
-    for j in y1:
-        z.append(i+j)
-    
-print(z)
